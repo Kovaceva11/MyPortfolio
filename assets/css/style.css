@@ -214,6 +214,7 @@ div {
 .w3-bar {
   width: 100%;
   overflow: hidden;  
+ 
 }
 
 .w3-center .w3-bar {
@@ -264,6 +265,8 @@ div {
   text-align: center;
   cursor: pointer;
   white-space: nowrap;
+  /* makes menu items to right */
+  float: right; 
 }
 
 .w3-button:hover {
@@ -295,6 +298,10 @@ div {
 
 .w3-left {
   float: left !important;
+}
+
+.w3-right {
+  float: right !important;
 }
 
 /* Styling for About Me Section*/
