@@ -312,7 +312,7 @@ div {
   margin-right: 16px;  
 }
 
-/*Made About Me title block centered*/
+/*Made About Me title block off-centered*/
 .w3-center {
   display: block;
   text-align: center !important;
@@ -433,3 +433,4 @@ div {
   transition: all .4s ease-in-out;
   transform: scale(1.1);
  }
+
