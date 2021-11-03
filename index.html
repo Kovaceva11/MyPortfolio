@@ -4,63 +4,118 @@
 <title>Adam Kovacevich's First Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./assets/reset.css"/>
-<link rel="stylesheet" href="./assets/style.css"/>
+<link rel="stylesheet" href="./assets/css/style.css"/>
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="./assets/css/all.css"/>-->
+<script src="https://kit.fontawesome.com/ac6946e395.js" crossorigin="anonymous"></script>
+<script src="./assets/java/java.js"></script>
 </head> 
 
 <body>
 
     <!--Header-->
-    <header>
-        <h1>Adam Kovacevich's Portfolio</h1>
-    
-    <!-- Navbar-->
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>            
-        </nav>
-    </header>
-
-    <div id="hero"></div>
-
-    <main>
-    <!--Container (About Section)-->
-        <div></div>
-    <!--Container (Portfolio of Work Completed)-->
-        <div></div>
-    <!--Container (Contact Section)-->
-        <div></div>
-    <!--Footer-->
-        <footer>
-            <h3>
-                &copy Created by Adam Kovacevich 2021
-            </h3>
-        </footer>
-    </main>
+<!-- Navbar-->
+<div class="w3-top">
+    <div class="w3-bar"  id="navBar">      
+      <a href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Nav Menu" class="w3-bar-item w3-button w3-hover-skyblue w3-left">
+      <i class="fa fa-bars"></i></a>        
+      <a href="#home" class="w3-bar-item w3-button"> Home</a>
+      <a href="#resume" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-file"></i> Resume</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-microchip"></i> Portfolio</a>
+      <a href="#about-me" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> About Me</a>              
+    </div>
+                
 
 
+    <!-- Navbar on small screens -->
+    <div id="navDrop" class="w3-bar-block w3-white w3-hide">
+        <a href="#about-me" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT ME</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    </div>
+</div>
 
+<!-- Hero Image Parallax with Logo Text Box. Image Scrolls in Background-->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide we-animate-opacity">Adam<span class="w3-hide-small"> </span> Kovacevich</span>
+    </div>
+</div>
 
+<!--Container (About Section)-->
+<div class="w3-content w3-container w3-padding-64" id="about-me">
+    <h3 class="w3-center w3-bold">About Me</h3>
+    <p class="w3-center w3-bold"><em>Ascending to new heights & crushing coding cruxes.</em></p>
 
+    <P>Although I have some web-design experience from the past, I have just now began to unlock my full potential in Full-Stack Web Development. From Front-End to Back-End; I am coding my very own beautiful, fully responsive websites and mobile applications. My goal is to become a Full-Stack Web Developer with a heavy focus on iOS and Android mobile application development. I eagerly look forward to helping you deploy the perfect applications to help your business succeed.</P>
+    <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+            <p class="w3-xlarge"><b><i class="fa fa-user w3-margin-right"></i>Adam Kovacevich</b></p><br>
+            <img src="./assets/images/profilepic.JPG" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="profile pic" width="500" height="333">           
+        </div>
+        <!--Second Paragraph To Side: About ME-->
+        <div class="w3-col m6 w3-padding-large">
+            <p>Welcome to my website. I am excited you are here to learn more about me and what drives my continued success. Born on January 31st, 1989 in Seoul, South Korea and later adopted by a loving family from Southwest Michigan. I grew up in a small farming town and quickly fell in love with the outdoors. Everything from camping and backpacking to hunting, fishing and rock-climbing. As an athlete and a pilot, I have developed a very unique skill-set which helps propel my life, both professionally and personally. I utilize dedication, discipline, integrity and excellence, in all I do.</p>
+                      
+            <p>10 years... A decade of experience within many facets of the Business Aviation industry. I have worked in everything from sales, marketing & business development to starting my own companies. I have worked in numerous successful start-ups to get them on the <em>"take-off-roll"</em>, and even some who have failed. The lessons I have learned and the knowledge I have gained from these experiences helps lead my career goals and personal drive.</p>
+        </div>
+    </div>
+    <!--Coding Languages Proficiency-->
+    <h3 class="w3-xlarge w3-center w3-padding-64">Full-Stack Proficiencies</h3>
+    <p class="w3-wide"><i class="fa fa-html5"></i>HTML</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-css3"></i>CSS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-js-square"></i>Javascript</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">50%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-react"></i>React.js</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:5%">5%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-node-js"></i>Node.js</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:5%">5%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-swift"></i>Swift</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:20%">20%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-android"></i>Android</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:25%">25%</div>
+    </div>
+</div>
 
+<!-- row of stats-->
 
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
 
+<!--Container (Portfolio of Work Completed)-->
+<div>
 
-
-
-
-
-
-
-
-
-
-
-
+  
+</div>
+<!--Container (Contact Section)-->
+<div></div>
+<!--Footer-->
+<footer>
+    <h3>
+    &copy Created by Adam Kovacevich 2021
+    </h3>
+</footer>
 
 </body>
 </html>
