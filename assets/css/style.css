@@ -266,10 +266,9 @@ a {
 /*navDropDown Menu Styling*/
 
 .ak-button {
-  display: inline-block;
+  display: block;
   border: none;
   padding: 8px 16px;
-  vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
@@ -390,10 +389,6 @@ a {
 .ak-row:before,
 .ak-row-padding:after,
 .ak-row-padding:before,
-.ak-cell-row:before,
-.ak-cell-row:after,
-.ak-clear:after,
-.ak-clear:before,
 .ak-bar:before,
 .ak-bar:after {
   content: "";
@@ -592,8 +587,7 @@ a {
   .ak-hide-small {
     display: none !important;
   }
-
-  .ak-bar-item. {
+  .ak-bar-item {
     text-align: center;
   }
 }
