@@ -426,7 +426,7 @@ a {
 .ak-light-gray,
 .ak-hover-light-gray:hover {
   color: #000 !important;
-  background-color: var(--skyblue) !important;
+  background-color: #616161 !important;
 }
 
 .ak-dark-skyblue,
@@ -480,7 +480,7 @@ a {
 /* footer */
 .ak-rock,
 .ak-hover-rock:hover {
-  color: var(--rock) !important;
+  color: white !important;
 }
 
 .ak-text-decoration-none {
