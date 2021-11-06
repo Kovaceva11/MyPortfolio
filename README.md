@@ -23,9 +23,12 @@ MDN Web Docs [https://developer.mozilla.org/en-US/](Developer.Mozilla.Org)
 Font Awesome [https://fontawesome.com/](www.fontawesome.com)
 > **Icon Package**: Free to use, no license required icon css styling package. Reference [./assets/css/all.css]
 
+Normalize.css - CSS RESET Stylesheet [https://necolas.github.io/normalize.css/]
 
 Google [https:www.maps.google.com]
 > **Google Maps**: I embedded the html code from the Atlanta, GA google maps application. It is reporting 12 Issues (in DevTools) about SameSite Cookie request. I am trying to resolve this issue.
+
+
 
 
 
@@ -57,4 +60,9 @@ SOFTWARE.
 >**Link, Buttons, Image Links**: Some links, buttons and images are not currently pointing to a URL. Some of these buttons and images currently do NOT have the ```<a hef>``` tag coded in place. This is because I am using these as placeholders for future buttons/images/links.
 
 
+## Check out the Repository & Deployed Website Below!
+
+[https://kovaceva11.github.io/MyPortfolio/] (My Portfolio Deployed)
+
+[https://github.com/Kovaceva11/MyPortfolio] (Github Repository)
 
