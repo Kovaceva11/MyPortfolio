@@ -12,7 +12,8 @@
 <body>
 
     <!--Header-->
-<!-- Navbar-->
+
+<nav>    <!-- Navbar-->
 <div class="ak-top ak-card ak-right">
     <div class="ak-bar ak-right"  id="navBar">      
       <a href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Nav Menu" class="ak-bar-item ak-button ak-hover-skyblue ak-left">
@@ -34,7 +35,7 @@
         <a href="#home" class="ak-bar-item ak-button" onclick="toggleFunction()">HOME</a>
     </div>
 </div>
-
+</nav>
 <!-- Hero Image Parallax with Logo Text Box. Image Scrolls in Background-->
 <div class="bgimg-1 ak-display-container ak-opacity-min" id="home">
     <div class="ak-display-middle" style="white-space:nowrap;"><!-- this is the text box-->
@@ -136,39 +137,96 @@
   <div class="ak-col m4 ak-padding-large ak-center" style="white-space:wrap;">
     <a href="https://www.idgjets.com" target="_blank">
       <div class="ak-center ak-padding-small ak-black ak-xlarge ak-wide ak-opacity-min ak-hover-opacity-off ak-align-middle">
-        <span class="ak-center ak-padding-small ak-black ak-xlarge ak-wide">Deployed<span class="ak-hide-small"> </span> App</span>        
+        <span class="ak-center ak-padding-small ak-black ak-xlarge ak-wide"><i class="fa fa-rocket"></i> Deployed<span class="ak-hide-small"> </span></span>        
       </div>
-    </a>
-  <!-- Start of Portfolio Links and Images -->
+    </a>  
   </div>
 </div>
-    <div class="ak-row-padding ak-container ak-padding-64 ak-section">
-      <div class="ak-col m4 ak-display-container ak-center ak-hover-opacity">
-        <img src="./assets/images/permatorque.JPG" alt="placeholder" width=100% title="Coming Soon"/>
-        <div class="ak-display-middle-relative" style="white-space:nowrap;">
-          <div class="ak-center ak-padding-small ak-black ak-xlarge ak-wide we-animate-opacity">
-            <span class="ak-center ak-padding-small ak-black ak-xlarge ak-wide we-animate-opacity">Deployed<span class="ak-hide-small"> </span> App</span>
-          </div>
-        </div>
-      </div>
+<!-- Start of Portfolio Links and Images -->
+<!-- Portfolio Grid -->
+<div class="ak-row-padding" id="about">
+  <div class="ak-center ak-padding-64">
+    <span class="ak-xlarge ak-border-dark-grey ak-padding-16">More of my apps!</span>
+  </div>
 
-      <div class="ak-col m4 ak-display-container ak-hover-opacity">
-        <img src="./assets/images/Flacon7x.jpg" alt="placeholder" width="100%" title="Coming Soon"/>
-        <div class="ak-display-middle-relative" style="white-space:nowrap;">
-          <div class="ak-center ak-padding-small ak-black ak-xlarge ak-wide we-animate-opacity">
-            <span class="ak-center ak-padding-small ak-black ak-xlarge ak-wide we-animate-opacity">Deployed<span class="ak-hide-small"> </span> App</span>
-          </div>
-        </div>
+  <div class="ak-third ak-margin-bottom">
+    <div class="ak-card-4 ak-hover-opacity-off">
+      <img src="./assets/images/longdoug.JPG" alt="John" style="width:100%">
+      <div class="ak-container">
+        <h3>Project App</h3>
+        <p class="ak-opacity">Shh. Its a secret.</p>
+        <p>This is my latest app build. However, it is still in the skunkworks laboratory... Not ready to be unleashed.</p>
+        <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-code"> View Code</i></button></p>
+        <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-rocket"></i> Deployed</button></p>
       </div>
-
-      <div class="ak-col m4 ak-display-container ak-hover-opacity">
-        <img src="./assets/images/longdoug.JPG" alt="placeholder" width=100% title="Coming Soon"/>
-        <div class="ak-display-middle-relative" style="white-space:nowrap;">
-          <span class="ak-center ak-padding-small ak-black ak-xlarge ak-wide we-animate-opacity">Deployed<span class="ak-hide-small"> </span> App</span>
-        </div>
-      </div>      
     </div>
   </div>
+
+  <div class="ak-third ak-margin-bottom">
+    <div class="ak-card-4 ak-hover-opacity-off">
+      <img src="./assets/images/peekaboo.JPG" alt="Mike" style="width:100%">
+      <div class="ak-container">
+        <h3>Planetary Grid Wireless</h3>
+        <p class="ak-opacity">M2M Communications & GPS Tracking System</p>
+        <p>Code/Deployment Details are under NDA. I helped build this IoT device.</p>
+        <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-code"></i></button></p>
+        <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-rocket"></i></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="ak-third ak-margin-bottom">
+    <div class="ak-card-4 ak-hover-opacity-off">
+      <img src="./assets/images/countdowntimer.png" alt="Jane" style="width:100%">
+      <div class="ak-container">
+        <h3>Count Down Timer App</h3>
+        <p class="ak-opacity">Android/Kotlin</p>
+        <p>This was my first Android App. Built in a few hours. This was my very first mobile app.</p>
+        <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-code"></i></button></p>
+        <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-rocket"></i></button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="ak-third ak-margin-bottom">
+  <div class="ak-card-4 image-card-4 ak-hover-opacity-off">
+    <img src="./assets/images/weather-app2.jpg" alt="John" style="width:100%">
+    <div class="ak-container">
+      <h3>Weather App</h3>
+      <p class="ak-opacity">Purple Rain</p>
+      <p>I only wanted to see you Laughing in the purple rain</p>
+      <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-code"></i></button></p>
+      <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-rocket"></i></button></p>
+    </div>
+  </div>
+</div>
+
+<div class="ak-third ak-margin-bottom">
+  <div class="ak-card-4 ak-hover-opacity-off">
+    <img src="./assets/images/dayplanner.jpg" alt="Mike" style="width:100%">
+    <div class="ak-container">
+      <h3>Day Planner</h3>
+      <p class="ak-opacity">Day Tripper</p>
+      <p>She was a day tripper One way ticket, yeah. She was a day tripper One way ticket, yeah. She was a day tripper one.</p>
+      <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-code"></i></button></p>
+      <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-rocket"></i></button></p>
+    </div>
+  </div>
+</div>
+
+<div class="ak-third ak-margin-bottom">
+  <div class="ak-card-4 ak-hover-opacity-off">
+    <img src="./assets/images/Readme Generator.png" alt="Jane" style="width:100%">
+    <div class="ak-container">
+      <h3>README Generator</h3>
+      <p class="ak-opacity">My Generation</p>
+      <p>This is my generation This is my generation, baby</p>
+      <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-code"></i></button></p>
+      <p><button class="ak-button ak-light-grey ak-block"><i class="fa fa-rocket"></i></button></p>
+    </div>
+  </div>
+</div>
+</div>
 </div>
 <!--Container (Contact Section)-->
 <!-- Third Parallax Image with Portfolio Text -->
