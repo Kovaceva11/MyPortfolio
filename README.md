@@ -19,7 +19,6 @@ W3 Schools HTML & CSS Tutorials [https://www.w3schools.com/](www.w3schools.com)
 
 MDN Web Docs [https://developer.mozilla.org/en-US/](Developer.Mozilla.Org)
 
-
 Font Awesome [https://fontawesome.com/](www.fontawesome.com)
 > **Icon Package**: Free to use, no license required icon css styling package. Reference [./assets/css/all.css]
 
