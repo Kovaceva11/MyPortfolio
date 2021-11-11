@@ -429,7 +429,7 @@ img {
 .ak-row-padding > .ak-threequarter,
 .ak-row-padding > .ak-quarter,
 .ak-row-padding > .ak-col {
-  padding: 0 8px;
+  padding: 25px 8px;
 }
 
 .ak-container,
@@ -532,6 +532,30 @@ img {
 
 .ak-text-decoration-none {
   text-decoration: none;
+}
+
+/* resume styling */
+.ak-text-skyblue {
+  color: var(--skyblue) !important;
+}
+
+.ak-skyblue,
+.ak-hover-skyblue:hover {
+  color: #fff !important;
+  background-color: var(--skyblue) !important;
+}
+
+.ak-tag {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.ak-text-grey {
+  color: #616161;
 }
 
 /* ALL MEDIA SCREEN QUERIES */
