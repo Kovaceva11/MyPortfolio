@@ -29,21 +29,13 @@ Google [https:www.maps.google.com]
 
 
 
-
-
-## License
-```
-Free to USE
-
-
-
 ## Disclaimer
 >**Link, Buttons, Image Links**: Some links, buttons and images are not currently pointing to a URL. Some of these buttons and images currently do NOT have the ```<a hef>``` tag coded in place. This is because I am using these as placeholders for future buttons/images/links.
 
 
 ## Check out the Repository & Deployed Website Below!
 
-[https://kovaceva11.github.io/MyPortfolio/] (My Portfolio Deployed)
+[https://kovaceva11.github.io/MyPortfolio/](www.github.com)
 
-[https://github.com/Kovaceva11/MyPortfolio] (Github Repository)
+[https://github.com/Kovaceva11/MyPortfolio](www.github.com)
 
