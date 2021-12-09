@@ -35,7 +35,6 @@ Google [https:www.maps.google.com]
 
 ## Check out the Repository & Deployed Website Below!
 
-[https://kovaceva11.github.io/MyPortfolio/](www.github.com)
+https://kovaceva11.github.io/MyPortfolio/
 
-[https://github.com/Kovaceva11/MyPortfolio](www.github.com)
-
+https://github.com/Kovaceva11/MyPortfolio
