@@ -61,3 +61,6 @@ SOFTWARE.
 https://kovaceva11.github.io/MyPortfolio/
 
 https://github.com/Kovaceva11/MyPortfolio
+
+cloned to mymacbook
+test 2
